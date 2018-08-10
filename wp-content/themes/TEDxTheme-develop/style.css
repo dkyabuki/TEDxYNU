@@ -1,0 +1,177 @@
+/*
+Theme Name: TEDxTheme
+Theme URI: http://twg.ca/
+Author: The Working Group & Jet Cooper
+Author URI: http://twg.ca/
+Description: Created with love for everyone involved with TEDx
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: TEDxTheme, TEDx
+Modified by: TEDxYNU
+*/
+
+.nxt-event {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+img#nxt-event-img {
+    width: 100%;
+    display: inline-block;
+}
+
+.ted-section {
+    margin-top: 25px;
+}
+
+.ted-section-title {
+    color: #ff2b06;
+    border-bottom: #ff2b06;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+
+.ted-section .post {
+    width: 33%;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    float: left;
+}
+
+.ted-section .post-title {
+    font-weight: bold;
+}
+
+.ted-section .post-date {
+    font-size: 11pt;
+    padding-bottom: 5px;
+}
+
+.ted-section .post.middle {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.ted-section .post-cont {
+    height: 52px;
+}
+
+.ted-hspace {
+    clear: both;
+    height: 15px;
+}
+
+.speaker-item {
+    width: 33%;
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+	margin-bottom: 15px;
+}
+
+.speaker-photo img {
+    width: 100%;
+}
+
+.speaker-name {
+    padding-top: 5px;
+    text-align: center;
+	background-color: black;
+    color: white;
+}
+
+.ted-section.ted-special-section {
+    width: 33%;
+    display: inline-block;
+    float: left;
+    padding: 0% 1%;
+}
+
+/** other homepage **/
+.nxt-event-background{
+	background-image: url("/wordpress/wp-content/uploads/2018/01/sky.jpg");
+	height: 548px;
+	background-position: -49px -300px;
+	background-attachment:fixed;
+}
+
+.black-block {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+}
+
+.next-event-big-title {
+    font-size: 30pt;
+}
+
+.next-event-small-title {
+    font-size: 14pt;
+}
+
+.black-block-container{
+	padding-left: 10%;
+}
+
+.black-block-container.first{
+	padding-top: 20px;
+}
+
+.next-event-logo {
+    background-image: url(http://tedxynu/wordpress/wp-content/uploads/2018/01/image10.png);
+    height: 44px;
+    width: 175px;
+    background-repeat: no-repeat;
+    background-size: 175px;
+}
+
+.black-block-container.last {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 155px;
+}
+
+.special-main-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+}
+
+.white-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+}
+
+.ted-section-background {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+	margin-top:45px;
+}
+
+.ted-section-background-talks{
+	background-image: url(/wordpress/wp-content/uploads/2018/01/TEDxtalks.jpg);
+}
+
+.ted-section-wt-bg {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ted-section-container-special {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
